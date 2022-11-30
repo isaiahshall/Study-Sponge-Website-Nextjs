@@ -5,7 +5,7 @@ import Logo from "../../resources/Sponge-Text-Logo.png";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
-  { text: "Home", href: "/home" },
+  { text: "Home", href: "/" },
   { text: "About Us", href: "/about" },
 ];
 
