@@ -4,6 +4,7 @@ import Navbar from "./Navbar/NavBar";
 import styles from "../styles/Home.module.css";
 import Logo from "../resources/Sponge-Text-Logo.png";
 import HeroPhoto from "../resources/Home-Photo-1.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,18 +27,15 @@ export default function Home() {
           Help us design our platform for YOUR needs by taking 30 seconds to
           answer a few easy questions.
         </p>
-        <button
-          href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAc13tdlUN0M3T0tJQ0M2QzNYVE5TTEtITldKV0dHTi4u"
-          className={styles.emailButton}
-        >
-          Share my input.
-        </button>
+        <Link href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAc13tdlUN0M3T0tJQ0M2QzNYVE5TTEtITldKV0dHTi4u">
+          <button className={styles.emailButton}>Share my input.</button>
+        </Link>
         <p className={styles.buttonHeader}>
           Want to be notified when we release our beta?
         </p>
-        <button href="http://eepurl.com/ifk9gX" className={styles.emailButton}>
-          Sign me up!
-        </button>
+        <Link href="http://eepurl.com/ifk9gX">
+          <button className={styles.emailButton}>Sign me up!</button>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
