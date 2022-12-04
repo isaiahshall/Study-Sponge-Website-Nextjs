@@ -4,7 +4,6 @@ import Navbar from "./Navbar/NavBar";
 import styles from "../styles/Home.module.css";
 import Logo from "../resources/Sponge-Text-Logo.png";
 import HeroPhoto from "../resources/Home-Photo-1.png";
-import Mailchimp from "react-mailchimp-subscribe";
 
 export default function Home() {
   return (
