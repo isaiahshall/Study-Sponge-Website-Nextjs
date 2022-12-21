@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "../../resources/Sponge-Text-Logo.png";
+//import Logo from "/resources/Sponge-Text-Logo.png";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link href={"/"} className={`nav__logo`}>
           <a>
             <Image
-              src={Logo}
+              src="/resources/Sponge-Text-Logo.png"
               alt="Logo"
               width={100}
               height={25}
