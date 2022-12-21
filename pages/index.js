@@ -2,9 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "./Navbar/NavBar";
 import styles from "../styles/Home.module.css";
-import Logo from "../resources/Sponge-Text-Logo.png";
-import HeroPhoto from "../resources/Home-Photo-1.png";
 import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -16,12 +15,18 @@ export default function Home() {
       </Head>
       <Navbar />
       <main className={styles.main}>
-        <Image
-          src={HeroPhoto}
-          alt="Product Image"
-          height={1250}
-          position={"fixed"}
-        ></Image>
+        <span className={styles.hero}>
+          <Image
+            src="/resources/Home-Photo-1.png"
+            alt="Product Image"
+            
+            objectFit='contain'
+            height={500}
+            width={500}
+  
+            
+          ></Image>
+        </span>
         <h1 className={styles.title}>Revolutionizing Online Math Help.</h1>
         <p className={styles.buttonHeader}>
           Help us design our platform for YOUR needs by taking 30 seconds to

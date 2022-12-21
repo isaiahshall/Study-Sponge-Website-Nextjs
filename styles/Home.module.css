@@ -11,6 +11,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.hero {
+  margin: 32px auto;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  
+}
+
+.heroPhoto {
+  margin: 5rem;
+  top: 50rem;
+  margin-top: 50rem;
+}
+
 .buttonHeader {
   margin-top: 40px;
   width: 20rem;
@@ -58,7 +76,7 @@
 }
 
 .title {
-  margin: 0rem 0rem;
+  margin: 3rem 0rem;
   line-height: 1.15;
   font-size: 3rem;
 }
