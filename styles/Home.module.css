@@ -13,7 +13,7 @@
 }
 
 .hero {
-  margin: 32px auto;
+  margin: 0px auto;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@
 }
 
 .title {
-  margin: 3rem 0rem;
+  margin: 1rem 0rem;
   line-height: 1.15;
   font-size: 3rem;
 }
